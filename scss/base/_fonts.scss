@@ -1,0 +1,38 @@
+$font-primary:'Roboto', sans-serif;
+
+body {
+    font-family:$font-primary;
+}
+
+.navbarpropio a {
+    font-size:18px;
+}
+
+.title-1-home, .title-2-home  {
+    font-size: 2em;
+}
+
+.title-4-home, .button, .subtitulo-heartfold, .definicion-heartfold {
+    font-size:20px;
+}
+
+.card-text-hf {
+    font-size: 16px;
+}
+
+h1 {
+    font-family:'Roboto', sans-serif;
+    font-size: 60px;
+    line-height: 0.9;
+    margin:5px 0px;
+}
+
+h2 {
+    font-family:'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 2em;    
+    line-height: 0.9;
+    display: flex;
+    justify-content:center;
+    padding: 50px 0px;
+}

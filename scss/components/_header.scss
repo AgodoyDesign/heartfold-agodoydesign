@@ -1,0 +1,22 @@
+.seccion-principal {
+    height: 800px;
+    background-image: url("img/fondo-principal-hearfold-3.png");
+    background-size: cover;
+}
+
+.cabecera {
+    padding: 30px 30px 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logotipo {
+    width: 200px;
+    margin-left: 40px;
+}
+
+.cabecera1{
+    background-color: transparent;
+
+}
