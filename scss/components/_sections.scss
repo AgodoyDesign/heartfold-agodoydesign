@@ -4,14 +4,33 @@
     background-size: cover;
 }
 
+@media (max-width: 992px) {
+    .seccion-principal {
+        height:550px;
+    }
+}
+
+@media (max-width: 414px) {
+    .seccion-principal {
+     height:550px;
+     background-color: #6e2b9c;
+     background-image: none;
+    }
+}
+
 .texto-principal {
     display:flex;
     padding-left: 50px;
     justify-content: center;
     flex-flow: column wrap;
     margin-top:120px;
-    
    }
+
+@media (max-width: 414px) {
+    .texto-principal {
+    margin-top:20px;
+    }
+}
 
 .title-1 {
     display: flex;
@@ -93,7 +112,7 @@
     padding: 170px 50px;
     flex-wrap: wrap;
 }
-@media (max-width: 992px) {
+@media (max-width: 414px) {
    
     .fila {
         display: inline;
