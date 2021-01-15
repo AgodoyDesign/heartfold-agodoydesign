@@ -12,6 +12,14 @@
     font-weight: 300;
 } 
 
+@media (max-width: 992px)
+{
+    .nav-footer {
+        display: grid;
+        justify-content: center;
+    } 
+} 
+
 .nav-footer a:hover {
     font-weight: 300;
 } 
