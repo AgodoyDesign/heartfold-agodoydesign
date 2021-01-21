@@ -12,9 +12,10 @@
 
 @media (max-width: 414px) {
     .seccion-principal {
-     height:550px;
+     height:100%;
      background-color: #6e2b9c;
      background-image: none;
+     padding-bottom: 50px;
     }
 }
 
@@ -116,7 +117,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 170px 50px;
     flex-wrap: wrap;
 }
 @media (max-width: 414px) {
@@ -127,7 +127,12 @@
 
     .icono-heartfold1 {
         width: 80%;
+        padding-top:3em;
     }
+}
+
+#que-es-heartfold {
+    height: 800px;
 }
 
 .colum {
