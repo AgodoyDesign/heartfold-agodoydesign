@@ -17,5 +17,9 @@
     display: flex;
     justify-content: center;
     border:none;
+
+    &.btn-primary-hf:hover {
+        transition: 1s ease-in-out;
+    }
 }
 

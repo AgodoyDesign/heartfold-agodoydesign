@@ -83,6 +83,13 @@
     width: 70%;
 }
 
+@media (max-width: 992px) {
+    .box-hf{
+        width: 90%;
+    }
+    
+}
+
 .card-hf {
     background-image:linear-gradient(#fff, #cfb3fd);
     border:2px solid #fff;
@@ -91,7 +98,7 @@
 
 .card-img-hf {
     width: 100px;
-    margin:30px 30px
+    margin:30px 30px;
 
 }
 
@@ -101,7 +108,7 @@
 
 .card-body-hf {
     background-color: #ba90ff;
-    padding: 1rem 2rem;
+    padding: 4rem 2rem;
 }
 
 .fila {
@@ -131,25 +138,24 @@
     max-width: 400px;
     display: block;
     margin: auto;
+    &:hover {
+        transition: all .4s ease;
+        transform: rotate(360deg);
+    }
 }
-
-.icono-heartfold1:hover {
-    transition: all .4s ease;
-    transform: rotate(360deg);
-}
-
 .definicion-heartfold {
     font-size: 18px;
     width: 89%;
 }
 
 #galeria-de-creaciones {
-    height: 800px;
-    background-image:linear-gradient(#e4dcff, #fff);
+    height: auto;
+    background-image:linear-gradient(#e4dcff, #f1ecff);
+    padding: 0 0 100px 0;
 }
 @media (max-width: 992px) {
     #galeria-de-creaciones {
-        height:600px;
+        height:auto;
     }
 }
 .galeria-creaciones {
@@ -164,10 +170,6 @@
     transition: all .4s ease;
 }
 
-.imgzoom:hover {
-    width: 100%;
-    transform:scale(1.2) rotate(20deg);
-}
 
 #como-hacer-tu-pedido {
     height: auto;
@@ -176,19 +178,27 @@
 }
 
 #contacto {
-    height: 750px;
+    height: auto;
     background-image:linear-gradient( #fff, #e4dcff);
+    padding: 0px 0 60px 0;
+}
+
+.icono-email { 
+    width:40px;
+    display: flex;
+    margin: 0 auto 20px;
 }
 
 .formulario {
-    padding:80px;
+    padding:50px;
     border:1px solid $colorprimario;
     border-radius:10px;
 }
 
+
 @media (max-width: 992px) {
     .formulario {
-        padding: 0px 40px 0px 40px;
+        padding: 40px;
         border:none;
     }
 }
@@ -201,3 +211,32 @@
     border-radius: 3px;
     background-color: #fff;
 }
+
+.row-hf {
+    --bs-gutter-x:0px;
+  }
+  .tz-gallery .row > div {
+    padding: 0px;
+    --bs-gutter-x:0px;
+  }
+  
+  .tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+  }
+  
+  
+  .baguetteBox-button {
+    background-color: transparent !important;
+  }
+  
+  #galeria-de-creaciones {
+    height: 100%;
+    background-color: #eddaff;
+  }
+  
+  .row-hf {
+    width: 100%;
+  } 
+

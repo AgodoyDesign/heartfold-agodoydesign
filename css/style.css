@@ -1,12 +1,12 @@
-.navbarpropio a, h2, .titulo-definicion, .formulario {
+.navbarpropio a, h2, .titulo-definicion, .formulario, .texto-contacto, .texto-contacto-bold {
   color: #663399;
 }
 
-.btn-primary-hf, .footer {
+.footer, .formulario {
   background-color: #663399;
 }
 
-.button {
+.button, .btn-primary-hf {
   background-color: #9f63cf;
 }
 
@@ -18,7 +18,7 @@
   background-color: #e9009b;
 }
 
-.title-1-home, .title-2-home, h1, .title-4-home, .button, .button:hover, #que-es-heartfold, .card-text-hf, #como-hacer-tu-pedido, #contacto, .footer, .nav-footer a {
+.title-1-home, .title-2-home, h1, .title-4-home, .button, .button:hover, #que-es-heartfold, .card-text-hf, #como-hacer-tu-pedido, #contacto, .footer, .nav-footer a, .formulario {
   color: white;
 }
 
@@ -30,7 +30,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.navbarpropio a {
+.navbarpropio a, .texto-contacto {
   font-size: 18px;
 }
 
@@ -61,6 +61,10 @@ h2 {
   display: flex;
   justify-content: center;
   padding: 50px 0px;
+}
+
+.texto-contacto-bold {
+  font-weight: 800;
 }
 
 .footer {
@@ -109,6 +113,9 @@ h2 {
   display: flex;
   justify-content: center;
   border: none;
+}
+.btn-primary-hf.btn-primary-hf:hover {
+  transition: 1s ease-in-out;
 }
 
 .navbarpropio {
@@ -230,6 +237,11 @@ h2 {
   width: 70%;
 }
 
+@media (max-width: 992px) {
+  .box-hf {
+    width: 90%;
+  }
+}
 .card-hf {
   background-image: linear-gradient(#fff, #cfb3fd);
   border: 2px solid #fff;
@@ -246,7 +258,7 @@ h2 {
 
 .card-body-hf {
   background-color: #ba90ff;
-  padding: 1rem 2rem;
+  padding: 4rem 2rem;
 }
 
 .fila {
@@ -276,7 +288,6 @@ h2 {
   display: block;
   margin: auto;
 }
-
 .icono-heartfold1:hover {
   transition: all 0.4s ease;
   transform: rotate(360deg);
@@ -288,13 +299,14 @@ h2 {
 }
 
 #galeria-de-creaciones {
-  height: 800px;
-  background-image: linear-gradient(#e4dcff, #fff);
+  height: auto;
+  background-image: linear-gradient(#e4dcff, #f1ecff);
+  padding: 0 0 100px 0;
 }
 
 @media (max-width: 992px) {
   #galeria-de-creaciones {
-    height: 600px;
+    height: auto;
   }
 }
 .galeria-creaciones {
@@ -309,11 +321,6 @@ h2 {
   transition: all 0.4s ease;
 }
 
-.imgzoom:hover {
-  width: 100%;
-  transform: scale(1.2) rotate(20deg);
-}
-
 #como-hacer-tu-pedido {
   height: auto;
   background-color: #d5bbff;
@@ -321,19 +328,26 @@ h2 {
 }
 
 #contacto {
-  height: 750px;
+  height: auto;
   background-image: linear-gradient(#fff, #e4dcff);
+  padding: 0px 0 60px 0;
+}
+
+.icono-email {
+  width: 40px;
+  display: flex;
+  margin: 0 auto 20px;
 }
 
 .formulario {
-  padding: 80px;
+  padding: 50px;
   border: 1px solid #663399;
   border-radius: 10px;
 }
 
 @media (max-width: 992px) {
   .formulario {
-    padding: 0px 40px 0px 40px;
+    padding: 40px;
     border: none;
   }
 }
@@ -344,6 +358,34 @@ h2 {
   bottom: 15%;
   border-radius: 3px;
   background-color: #fff;
+}
+
+.row-hf {
+  --bs-gutter-x:0px;
+}
+
+.tz-gallery .row > div {
+  padding: 0px;
+  --bs-gutter-x:0px;
+}
+
+.tz-gallery .lightbox img {
+  width: 100%;
+  border-radius: 0;
+  position: relative;
+}
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+#galeria-de-creaciones {
+  height: 100%;
+  background-color: #eddaff;
+}
+
+.row-hf {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

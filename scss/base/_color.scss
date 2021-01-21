@@ -4,16 +4,16 @@ $colorterciario:#9f63cf;
 $colorbase:white;
 $colortext:#6d6d6d;
 
-.navbarpropio a, h2, .titulo-definicion, .formulario {
+.navbarpropio a, h2, .titulo-definicion, .formulario, .texto-contacto, .texto-contacto-bold {
     color:$colorprimario;
 
 }
 
-.btn-primary-hf, .footer {
+.footer, .formulario {
     background-color:$colorprimario;
 }
 
-.button {
+.button, .btn-primary-hf {
     background-color:$colorterciario;
 }
 .navbarpropio a:hover, .nav-footer a:hover  {
@@ -24,7 +24,7 @@ $colortext:#6d6d6d;
     background-color:$colorsecundario;
 }
 
-.title-1-home, .title-2-home, h1, .title-4-home, .button , .button:hover, #que-es-heartfold, .card-text-hf, #como-hacer-tu-pedido, #contacto, .footer, .nav-footer a {
+.title-1-home, .title-2-home, h1, .title-4-home, .button , .button:hover, #que-es-heartfold, .card-text-hf, #como-hacer-tu-pedido, #contacto, .footer, .nav-footer a, .formulario {
     color:$colorbase;
 }
 

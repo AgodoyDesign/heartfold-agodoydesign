@@ -4,7 +4,7 @@ body {
     font-family:$font-primary;
 }
 
-.navbarpropio a {
+.navbarpropio a, .texto-contacto{
     font-size:18px;
 }
 
@@ -35,4 +35,8 @@ h2 {
     display: flex;
     justify-content:center;
     padding: 50px 0px;
+}
+
+.texto-contacto-bold {
+    font-weight: 800;
 }
