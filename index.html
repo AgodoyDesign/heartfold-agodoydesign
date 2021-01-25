@@ -11,6 +11,9 @@
     <meta name= "author" content="HeartFold">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="go-up.js"></script>
 
     <!-- Open graph - Esto es lo que va a ver la gente cuando uno comparte la imagen -->
     <meta property="og:locale" content="es_ES">
@@ -43,8 +46,6 @@
               </button>
               <div class="collapse navbar-collapse navbarpropio" id="navbarNav">
                     <ul class="navbar-nav navbarpropio">
-                      <a class="nav-link" href="#">Inicio</a>
-                      </li>
                       <li class="nav-item">
                       <a class="nav-link" href="#que-es-heartfold">¿Qué es Heartfold?</a>
                       </li>
@@ -87,37 +88,78 @@
           <div class="tz-gallery">
 
             <div class="row row-hf">
-                <div class="col-sm-12 col-md-4">
-                    <a class="lightbox " href="img/cuadro-flounder-la-sirenita.jpg">
-                        <img src="img/cuadro-flounder-la-sirenita.jpg" alt="Cuadro de dibujo animado flounder de la sirenita realizado con corazones de colores doblados a la mitad">
-                    </a>
+                <div class="col-sm-6 col-md-4 container-hf">
+                  <div class="content-hf">
+                    <a href="img/cuadro-flounder-la-sirenita.jpg">
+                      <div class="content-overlay"></div>
+                        <img class="content-image" src="img/cuadro-flounder-la-sirenita.jpg" alt="Cuadro de dibujo animado flounder de la sirenita realizado con corazones de colores doblados a la mitad">
+                        <div class="content-details fadeIn-left">
+                          <h3>"Flounder"</h3>
+                          <p>Personaje animado de "La Sirenita"  Cuadro a tamaño A4</p>
+                        </div>
+                      </a>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="img/cuadro-bandera-lituania-irlanda.jpg">
-                        <img src="img/cuadro-bandera-lituania-irlanda.jpg" alt="Cuadro de banderas de Lituania e Irlanda realizada con corazones de colores doblados a la mitad">
-                    </a>
+                <div class="col-sm-6 col-md-4 container-hf">
+                  <div class="content-hf">
+                    <a href="img/cuadro-bandera-lituania-irlanda.jpg">
+                      <div class="content-overlay"></div>
+                        <img class="content-image" src="img/cuadro-bandera-lituania-irlanda.jpg" alt="Cuadro de banderas de Lituania e Irlanda realizada con corazones de colores doblados a la mitad">
+                        <div class="content-details fadeIn-top">
+                          <h3>"Duo Banderas"</h3>
+                          <p>Banderas de Lituania e Irlanda - Cuadro a tamaño A4</p>
+                        </div>
+                      </a>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="img/cuadro-reno-navidad.jpg">
-                        <img src="img/cuadro-reno-navidad.jpg" alt="Cuadro de reno navideño realizado con corazones de colores doblados a la mitad">
+                <div class="col-sm-6 col-md-4 container-hf">
+                  <div class="content-hf">
+                    <a href="img/cuadro-reno-navidad.jpg">
+                      <div class="content-overlay"></div>
+                        <img class="content-image" src="img/cuadro-reno-navidad.jpg" alt="Cuadro de reno navideño realizado con corazones de colores doblados a la mitad">
+                        <div class="content-details fadeIn-right">
+                          <h3>"Renito"</h3>
+                          <p>Reno ideal para decoración navideña - Cuadro a tamaño 15x10cm</p>
+                        </div>
                     </a>
+                  </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="img/cuadro-bandera-de-venezuela-con-corazones.jpg">
-                        <img src="img/cuadro-bandera-de-venezuela-con-corazones.jpg" alt="Cuadro de bandera de venezuela realizada con corazones de colores doblados a la mitad">
-                    </a>
+                <div class="col-sm-6 col-md-4 container-hf">
+                  <div class="content-hf">
+                    <a href="img/cuadro-bandera-de-venezuela-con-corazones.jpg">
+                      <div class="content-overlay"></div>
+                        <img class="content-image" src="img/cuadro-bandera-de-venezuela-con-corazones.jpg" alt="Cuadro de bandera de venezuela realizada con corazones de colores doblados a la mitad">
+                        <div class="content-details fadeIn-left">
+                          <h3>"Bandera de Venezuela"</h3>
+                          <p>Bandera de Venezuela (Tricolor) - Cuadro a tamaño A4</p>
+                        </div>
+                      </a>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="img/cuadro-unicornio-con-corazones.jpg">
-                        <img src="img/cuadro-unicornio-con-corazones.jpg" alt="Cuadro de unicornio de colores realizada con corazones de colores doblados a la mitad">
-                    </a>
+                <div class="col-sm-6 col-md-4 container-hf">
+                  <div class="content-hf">
+                    <a href="img/cuadro-unicornio-con-corazones.jpg">
+                      <div class="content-overlay"></div>
+                        <img class="content-image" src="img/cuadro-unicornio-con-corazones.jpg" alt="Cuadro de unicornio de colores realizada con corazones de colores doblados a la mitad">
+                        <div class="content-details fadeIn-bottom">
+                          <h3>"Unicornio"</h3>
+                          <p>Dibujo Unicornio de Colores - Cuadro a tamaño 20x20cm</p>
+                        </div>
+                      </a>
+                    </div>
                 </div> 
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="img/cuadro-dibujo-tata-bts21.jpg">
-                        <img src="img/cuadro-dibujo-tata-bts21.jpg" alt="Cuadro de tata bts21 realizada con corazones de colores doblados a la mitad">
-                    </a>
+                <div class="col-sm-6 col-md-4 container-hf">
+                  <div class="content-hf">
+                    <a href="img/cuadro-dibujo-tata-bts21.jpg">
+                      <div class="content-overlay"></div>
+                        <img class="content-image" src="img/cuadro-dibujo-tata-bts21.jpg" alt="Cuadro de tata bts21 realizada con corazones de colores doblados a la mitad">
+                        <div class="content-details fadeIn-right">
+                          <h3>"TATA"</h3>
+                          <p>Dibujo BTS21 - Banda musical BTS - Cuadro a tamaño 15x10cm</p>
+                        </div>
+                      </a>
                 </div>
-    
+              </div>
             </div>
     
         </div>
@@ -155,7 +197,7 @@
                       <img src="img/icono-camion-de-reparto.svg" class="card-img-top card-img-hf mx-auto" alt="Icono de camión de reparto">
                       <div class="card-body card-body-hf">
                         <h5 class="card-title text-center">Paso 3</h5>
-                        <p class="card-text card-text-hf text-center">Una vez realizado el pago recibirás la confirmación y se iniciará el proceso de creación del cuadro. Posteriormente recibirás tu pedido en un plazo de 10 días hábiles</p>
+                        <p class="card-text card-text-hf text-center">Una vez realizado el pago recibirás la confirmación y se iniciará el proceso de creación. Posteriormente recibirás tu pedido en un plazo de 10 días hábiles</p>
                       </div>
                     </div>
                   </div>
@@ -215,11 +257,14 @@
         <a href="http://www.instagram.com/arteheartfold"><img src="img/icono-instagram.svg" alt="Boton para ir a red social instagram"></a>
         <a href="https://web.whatsapp.com/"><img src="img/icono-wsp.svg" alt="Boton para ir Whatsapp"></a>
       </div>
-
+   
+      <div class="ir-arriba"><a><img src="img/icono-go-up.svg" alt="Boton para ir Whatsapp"></a></div>
+     
 
      <!-- Área de pie de página -->
       <footer class="footer">
         <nav class="nav-footer">
+          <a class="navbar-brand" href="#">Inicio</a>
           <a class="navbar-brand" href="#que-es-heartfold">¿Qué es Heartfold?</a>
           <a class="navbar-brand" href="#galeria-de-creaciones">Galería de Creaciones</a>
           <a class="navbar-brand" href="#como-hacer-tu-pedido">Como hacer tu pedido</a>
@@ -230,10 +275,9 @@
         </nav> 
       </footer>
 
-
    <!--Option 2: Separate Popper and Bootstrap JS -->
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-
+  
     </body>
 </html>
