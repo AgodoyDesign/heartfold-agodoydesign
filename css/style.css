@@ -176,6 +176,8 @@ h2 {
 @media (max-width: 992px) {
   .seccion-principal {
     height: 550px;
+    height: 100%;
+    padding-bottom: 50px;
   }
 }
 @media (max-width: 414px) {
@@ -193,12 +195,18 @@ h2 {
   flex-flow: column wrap;
   margin-top: 120px;
 }
-
+@media (max-width: 992px) {
+  .texto-principal {
+    width: 55%;
+    margin-top: 40px;
+  }
+}
 @media (max-width: 414px) {
   .texto-principal {
     margin-top: 20px;
   }
 }
+
 .title-1 {
   display: flex;
   flex-direction: row;
@@ -293,6 +301,11 @@ h2 {
 #que-es-heartfold {
   height: 800px;
 }
+@media (max-width: 992px) {
+  #que-es-heartfold {
+    height: auto;
+  }
+}
 
 .colum {
   flex: 1;
@@ -309,7 +322,6 @@ h2 {
 }
 
 .definicion-heartfold {
-  font-size: 18px;
   width: 89%;
 }
 
@@ -373,6 +385,11 @@ h2 {
   bottom: 12%;
   border-radius: 3px;
   background-color: #fff;
+}
+@media (max-width: 992px) {
+  .social {
+    bottom: 5%;
+  }
 }
 
 .row-hf {

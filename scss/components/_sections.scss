@@ -1,4 +1,3 @@
-
 .seccion-principal {
     height: 800px;
     background-image: url("../img/fondo-principal-hearfold-3.png");
@@ -8,6 +7,8 @@
 @media (max-width: 992px) {
     .seccion-principal {
         height:550px;
+        height:100%;
+     padding-bottom: 50px;
     }
 }
 
@@ -26,12 +27,14 @@
     justify-content: center;
     flex-flow: column wrap;
     margin-top:120px;
-   }
-
-@media (max-width: 414px) {
-    .texto-principal {
-    margin-top:20px;
-    }
+   
+        @media (max-width: 992px) {
+            width: 55%;
+            margin-top:40px;
+        }
+        @media (max-width: 414px) {
+            margin-top:20px;
+            }
 }
 
 .title-1 {
@@ -49,15 +52,12 @@
     color:#fff;
 }
 
-
 .title-4-home {
     margin-right: 5px;
     color:rgb(255, 255, 255);
     font-weight: 200;
     margin-bottom: 10px;
 }
-
-
 
 .section-heartfold {
     padding: 40px;
@@ -134,7 +134,11 @@
 
 #que-es-heartfold {
     height: 800px;
-}
+    @media (max-width: 992px) {
+            height:auto;
+        }
+        
+    }
 
 .colum {
     flex:1;
@@ -149,8 +153,8 @@
         transform: rotate(360deg);
     }
 }
+
 .definicion-heartfold {
-    font-size: 18px;
     width: 89%;
 }
 
@@ -212,6 +216,10 @@
     bottom: 12%;
     border-radius: 3px;
     background-color: #fff;
+
+    @media (max-width: 992px) {
+        bottom: 5%;
+    }
 }
 
 .row-hf {
@@ -222,7 +230,7 @@
     padding: 0px;
     --bs-gutter-x:0px;
 }
-  
+
 .tz-gallery .lightbox img {
     width: 100%;
     border-radius: 0;
@@ -250,15 +258,16 @@
   } 
 
 .container-hf {
-  float: left;
-  width: 50%;
-  @media screen and (max-width: 640px) {
-    display: block;
-    width: 100%;
-  }
-  @media screen and (min-width: 900px){
-      width: 33.33333%;
+    float: left;
+    width: 50%;
+    
+    @media screen and (max-width: 640px) {
+        display: block;
+        width: 100%;
     }
+    @media screen and (min-width: 900px){
+        width: 33.33333%;
+        }
 }
 
 .content-hf {
