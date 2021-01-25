@@ -209,7 +209,7 @@
     width:48px;
     position:fixed;
     right:0;
-    bottom: 20%;
+    bottom: 12%;
     border-radius: 3px;
     background-color: #fff;
 }
@@ -233,7 +233,7 @@
 .baguetteBox-button {
     background-color: transparent !important;
   }
-  
+
 #baguetteBox-overlay {
     @media screen and (max-width: 640px) {
         display:none !important;
