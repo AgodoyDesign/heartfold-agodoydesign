@@ -203,6 +203,7 @@ h2 {
 }
 @media (max-width: 414px) {
   .texto-principal {
+    width: 100%;
     margin-top: 20px;
   }
 }
