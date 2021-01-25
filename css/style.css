@@ -394,6 +394,12 @@ h2 {
   background-color: transparent !important;
 }
 
+@media screen and (max-width: 640px) {
+  #baguetteBox-overlay {
+    display: none !important;
+  }
+}
+
 #galeria-de-creaciones {
   height: 100%;
   background-color: #eddaff;
@@ -419,12 +425,6 @@ h2 {
   }
 }
 
-.container-hf .title {
-  color: #1a1a1a;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
 .content-hf {
   position: relative;
   width: 100%;
@@ -433,7 +433,7 @@ h2 {
 }
 
 .content-hf .content-overlay {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(61, 1, 100, 0.7);
   position: absolute;
   height: 100%;
   width: 100%;
